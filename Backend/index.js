@@ -4,11 +4,11 @@ const port = 3000;
 const path = "/home/kilian/Documents/Projects/To-Do List";
 
 app.get('/home', (req, res) => {
-    res.sendFile(path + '/front/index.html');
+    res.sendFile(path + '/Front/index.html');
 });
 
 app.get("/css/home.css", (req, res) => {
-    res.sendFile(path + "/front/css/home.css");
+    res.sendFile(path + "/Front/css/home.css");
 });
 
 app.listen(port, () => {
