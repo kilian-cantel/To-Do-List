@@ -18,7 +18,7 @@ A simple and intuitive to-do list application to help you manage your tasks effi
     ```
 3. Install dependencies:
     ```sh
-    npm install
+    npm install express
     ```
 
 ## Usage
