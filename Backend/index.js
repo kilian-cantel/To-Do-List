@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const port = 3000;
-const path = "/home/kilian/Documents/Projects/To-Do List";
+const path = __dirname;
 
 app.get('/home', (req, res) => {
     res.sendFile(path + '/Front/index.html');
