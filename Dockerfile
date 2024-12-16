@@ -11,7 +11,6 @@ COPY ./ ./
 
 # Install the dependencies
 RUN npm install express
-RUN npm install nodemon
 
 # Copy the rest of the application code to the working directory
 COPY . .
