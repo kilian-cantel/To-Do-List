@@ -1,14 +1,12 @@
 const express = require('express');
+const path = require('path');
 const app = express();
 const port = 3000;
-const path = __dirname;
+
+app.use(express.static(path.join(__dirname, '/../Front')));
 
 app.get('/home', (req, res) => {
-    res.sendFile(path + '/Front/index.html');
-});
-
-app.get("/css/home.css", (req, res) => {
-    res.sendFile(path + "/Front/css/home.css");
+    res.sendFile(path.join(__dirname, '/../Front/index.html'));
 });
 
 app.listen(port, () => {
