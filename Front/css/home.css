@@ -25,3 +25,15 @@ body {
     /* background-color: blue; */
     margin-left: 10px;
 }
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stateColumn {
+    height: 95vh;
+    width: 33%;
+    background-color: grey;
+    display: flex;
+}
