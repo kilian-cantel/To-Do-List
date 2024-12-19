@@ -28,12 +28,40 @@ body {
 
 .main {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .stateColumn {
     height: 95vh;
     width: 33%;
-    background-color: grey;
+    background-color: rgb(68, 67, 67);
     display: flex;
+}
+
+.add_task {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 17px;
+    background-color: rgb(88, 86, 86);
+}
+
+.add_task:hover {
+    background-color: grey;
+
+}
+
+.add_task_label {
+    color: transparent;
+    font-size: 20px;
+}
+
+.add_task:hover .add_task_label {
+    color: white;
+    font-size: 20px;
 }
