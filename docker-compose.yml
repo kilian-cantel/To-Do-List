@@ -1,5 +1,5 @@
 services:
   app:
-    image: laptoff/to-do-list:0.1
+    image: laptoff/to-do-list:0.4
     ports:
       - "3000:3000"
